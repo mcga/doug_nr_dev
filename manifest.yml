@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: doug_nr_dev
+  host: doug-nr-dev
+  disk_quota: 1024M
+  services:
+  - Language Translator-0l
+  - doug_nr_dev-cloudantNoSQLDB
+  - Conversation-yk
